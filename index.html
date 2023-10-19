@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <header>
+        <h1 class="website-name">TO DO LIST</h1>
+    </header>
+
+    <div class="todo-box">
+        <h1> MUST DO </h1>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="Enter task">
+            <button type="submit">Add</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sl. No</th>
+                    <th>Task</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="todo-list">
+            </tbody>
+        </table>
+    </div>
+
+    <div class="maybe-do-box">
+        <h1> SHOULD DO </h1>
+        <form id="maybe-do-form">
+            <input type="text" id="maybe-do-input" placeholder="Enter task">
+            <button type="submit">Add</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sl. No</th>
+                    <th>Task</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="maybe-do-list">
+            </tbody>
+        </table>
+    </div>
+
+    <div class="another-box">
+        <h1> COULD DO </h1>
+        <form id="another-form">
+            <input type="text" id="another-input" placeholder="Enter task">
+            <button type="submit">Add</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sl. No</th>
+                    <th>Task</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="another-list">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

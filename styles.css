@@ -1,0 +1,135 @@
+body {
+    background-color: #f8f2ef;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.todo-box {
+    width: 385px;
+    min-height: 350px;
+    background-color: #baacac;
+    padding: 20px;
+    margin: 0 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block; 
+    vertical-align: top; 
+}
+.maybe-do-box {
+    width: 385px;
+    min-height: 350px;
+    background-color: #b5c2dc;
+    padding: 20px;
+    margin: 0 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block; 
+    vertical-align: top; 
+}
+.another-box {
+    width: 385px;
+    min-height: 350px;
+    background-color: #e1b6bf;
+    padding: 20px;
+    margin: 0 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block; 
+    vertical-align: top; 
+}
+
+.website-name {
+    font-size: 56px;
+    font-family: "Marykate";
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#todo-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#todo-input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#maybe-do-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#maybe-do-input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#another-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#another-input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 25%;
+    padding: 8px;
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000000;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+#maybe-do-list {
+    list-style-type: none;
+    padding: 0;
+}
+#another-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.delete-button {
+    background-color: #e42a2a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.delete-button:hover {
+    background-color: #df0202;
+}
