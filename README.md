@@ -4,7 +4,7 @@
 
 Welcome to the To-Do List Web Application! This project is a simple to-do list manager that allows you to keep track of your tasks and daily activities, built using HTML, CSS, and JavaScript.
 
-You can access the live demo of this project here: [To-Do List Web App](https://vaseem1014.github.io/OCTANET_OCTOBER_TASK2/)
+You can access the live demo of this project here: [To-Do List Web Page](https://vaseem1014.github.io/OCTANET_OCTOBER_TASK2/)
 
 ## Features
 
@@ -52,6 +52,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-If you have any questions, suggestions, or need assistance, feel free to contact the project owner at (vaseem1014@gmail.com).
+If you have any questions, suggestions, or need assistance, feel free to contact the project owner at [mail me here](vaseem1014@gmail.com).
 
 Enjoy managing your tasks with this To-Do List Web Application!
