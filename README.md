@@ -20,7 +20,7 @@ To run this project locally or contribute to it, follow these steps:
 
 1. Clone the repository to your local machine:
    
-git clone ******
+git clone (https://github.com/vaseem1014/OCTANET_OCTOBER_TASK2)
 
 2. Open the `index.html` file in your web browser to access the to-do list.
 
@@ -52,6 +52,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-If you have any questions, suggestions, or need assistance, feel free to contact the project owner at [mail me here](vaseem1014@gmail.com).
+If you have any questions, suggestions, or need assistance, feel free to contact the project owner at [vaseem1014@gmail.com](mailto:vaseem1014@gmail.com).
 
 Enjoy managing your tasks with this To-Do List Web Application!
